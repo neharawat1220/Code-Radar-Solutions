@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int radius;
-    scanf("%d",&radius);
-    printf("Area: %.2lf",pi*r*r);
+    scanf("%f",&radius);
+    printf("Area: %.2lf",3.14*r*r);
     return o;
 }
