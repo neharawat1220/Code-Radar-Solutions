@@ -2,6 +2,6 @@
 int main(){
     int radius;
     scanf("%d",&radius);
-    printf("Area: %.2f",pi*r*r);
+    printf("Area: %.2lf",pi*r*r);
     return o;
 }
