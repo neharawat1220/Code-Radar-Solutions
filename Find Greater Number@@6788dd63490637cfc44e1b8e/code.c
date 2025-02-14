@@ -6,6 +6,8 @@ int main(){
         printf("5");
     }else if(b>a){
         printf("10");
+    }else{
+        printf("print both");
     }
     return 0;
 }
