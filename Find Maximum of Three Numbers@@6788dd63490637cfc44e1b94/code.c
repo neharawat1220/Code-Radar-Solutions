@@ -4,7 +4,7 @@ int main(){
     scanf("%d %d %d",&a,&b,&c);
     if(a>b && b>a){
         printf("max");
-    }else(a>c &&c>a){
+    }else if(a>c &&c>a){
         printf("max");
     }
     return 0;
