@@ -2,9 +2,9 @@
 int main(){
     int a,b,c;
     scanf("%d %d %d",&a,&b,&c);
-    if(a>b && b>a){
+    if(a>b && b>c && c>a){
         printf("max");
-    }else if(a>c &&c>a){
+    }else{ 
         printf("max");
     }
     return 0;
