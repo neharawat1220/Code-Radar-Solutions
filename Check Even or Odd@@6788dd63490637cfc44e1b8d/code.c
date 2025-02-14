@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main(){
-    scanf("%d",&a);
-    if(a is even){
+    int num
+    scanf("%d",&num);
+    if(num is even){
         printf("Even");
     }else{
         printf("Odd");
