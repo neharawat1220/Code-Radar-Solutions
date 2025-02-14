@@ -7,8 +7,10 @@ int main(){
         printf("Vowel",ch);
     }else if((ch>='a' && ch <='z') || (ch >='A' && ch <='Z')){
         printf("Constant",ch);
+    }else if(ch>='0' && ch<='9'){
+        printf("Digit",ch);
     }else{
-        printf("Not alphabet",ch);
+        printf("Special Charater ")
     }
     return 0;
 }
