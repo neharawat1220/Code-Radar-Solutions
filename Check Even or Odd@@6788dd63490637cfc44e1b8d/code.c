@@ -2,7 +2,7 @@
 int main(){
     int num;
     scanf("%d", &num);
-    if(num is even){
+    if(num % 2==0){
         printf("Even");
     }else{
         printf("Odd");
