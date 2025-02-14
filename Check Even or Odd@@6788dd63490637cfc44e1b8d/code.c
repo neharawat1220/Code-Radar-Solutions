@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int a=4;
+    int a;
     scanf("%d",&a);
     if(a is even){
         printf("Even");
