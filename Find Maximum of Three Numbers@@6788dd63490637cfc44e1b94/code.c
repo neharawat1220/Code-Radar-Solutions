@@ -1,13 +1,24 @@
 #include<stdio.h>
 int main(){
-   int a,b,c;
+   int a,b,c,max;
+   printf("Enter three numbers :\n");
    scanf("%d %d %d",&a,&b,&c);
    if(a>b){
-    printf("max");
-   }else if("b>c"){
-    printf("max");
-   }else{
-    printf("max");
-   }
+       if(a>c){
+        max=a;   
+       }
+       else{
+           max=c;
+       }
+   } 
+    else{
+        if(b>c){
+            max=b;
+        }
+        else{
+            max=c;
+        }
+    }
+    printf("Maximum among all three numbers = %d", max);
    return 0;
 }
