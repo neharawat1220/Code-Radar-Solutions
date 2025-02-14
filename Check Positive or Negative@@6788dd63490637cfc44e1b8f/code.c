@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main(){
-    int a=10,b=-5,c=0;
-    scanf("%d %d ",&a,&b);
-    if(a is positive){
+    int num;
+    scanf("%d ", &num);
+    if(num>0){
         printf("Positive");
-    }else if( b is negative){
+    }else if( num<0){
         printf("Negative");
     }else{
         printf("Zero");
