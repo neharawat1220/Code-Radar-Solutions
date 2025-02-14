@@ -3,9 +3,11 @@ int main(){
     int a=5,b=10;
     scanf("%d %d" ,&a, &b);
     if(a>b){
-        printf(" %d\n", a);
+        printf("the greater number is :%d\n", a);
+    }else if{
+        printf("the greater number is :%d\n", b);
     }else{
-        printf(" %d\n", b);
+        printf("both greater");
     }
     return 0;
 }
