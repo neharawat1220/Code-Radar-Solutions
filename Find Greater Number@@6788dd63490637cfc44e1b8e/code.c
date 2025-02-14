@@ -4,7 +4,7 @@ int main(){
     scanf("%d %d" ,&a, &b);
     if(a>b){
         printf("the greater number is :%d\n", a);
-    }else if{
+    }else if(b>a){
         printf("the greater number is :%d\n", b);
     }else{
         printf("both greater");
