@@ -4,7 +4,7 @@ int main() {
     int a, b, c;  
 
     // Input: Read three space-separated integers  
-    printf("Enter three sides of a triangle: ");  
+   // printf("Enter three sides of a triangle: ");  
     scanf("%d %d %d", &a, &b, &c);  
 
     // Check if the sides form a valid triangle  
