@@ -2,7 +2,7 @@
 int main(){
     int a,b;
     scanf(" %d %d ",&a,&b);
-    printf("%d",a);
+    printf("%d\n",a);
     printf("%d\n",b);
 
     a ^= b;
