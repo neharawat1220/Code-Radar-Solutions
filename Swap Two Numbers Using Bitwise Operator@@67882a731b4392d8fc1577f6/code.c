@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int a, b, temp;
+    int a=5, b=3, temp;
     printf("%d %d\n", a, b);
     //swap
     temp = a;
