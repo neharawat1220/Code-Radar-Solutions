@@ -2,9 +2,9 @@
 int main(){
     int a, b,c;
    //swap
-    a = b;
+    c = a;
     b = a;
-    a = c;
+    b = c;
    
     printf("%d %d\n" ,a, b,c);
     return 0;
