@@ -4,7 +4,7 @@ int main(){
    //swap
     a = b;
     b = a;
-    c = a;
+    a = c;
    
     printf("%d %d\n" ,a, b,c);
     return 0;
