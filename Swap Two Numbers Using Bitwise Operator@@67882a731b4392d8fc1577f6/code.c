@@ -2,14 +2,14 @@
 int main(){
     int a,b;
     scanf(" %d %d ",&a,&b);
-    printf(" original value of a = %d\n",a);
-    printf(" original value of b= %d\n",b);
+    printf(" %d\n",a);
+    printf(" %d\n",b);
 
     a ^= b;
     b ^= a;
     a ^= b;
-    printf("a after swapping=%d\n",a);
-    printf("b after swapping=%d\n",b);
+    printf("%d\n",a);
+    printf("%d\n",b);
     return 0;
 
 
