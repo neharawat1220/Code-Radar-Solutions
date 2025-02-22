@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int a, b,c;
+    int a, b, c;
    //swap
     c = a;
     b = a;
