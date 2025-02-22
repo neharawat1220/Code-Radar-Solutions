@@ -1,8 +1,7 @@
 #include<stdio.h>
 int main(){
     int a=5, b=3, temp;
-    printf("%d %d\n", a, b);
-    //swap
+   //swap
     temp = a;
     a = b;
     b = temp;
