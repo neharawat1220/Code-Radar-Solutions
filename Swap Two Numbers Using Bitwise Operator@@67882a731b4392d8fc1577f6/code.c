@@ -1,15 +1,11 @@
 #include<stdio.h>
 int main(){
-    int num1,num2 temp;
-    scanf("%d %d", &num1, &num2);
-    /*Swap two numbers*/
-    temp ^= num1;
-    num2 ^= num1;
-    num2 ^= temp;
+    int a=5,b=3,temp;
+    //swap
+    temp ^=a;
+    a ^=b;
+    b ^=temp;
 
-    printf("%d\n", num1);
-    printf("%d\n", num2);
-
+    printf("%d %d\n",a,b);
     return 0;
-
-}
+}      
