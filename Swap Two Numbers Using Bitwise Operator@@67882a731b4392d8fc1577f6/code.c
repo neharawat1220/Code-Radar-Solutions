@@ -2,8 +2,8 @@
 int main(){
     int a,b;
     scanf(" %d %d ",&a,&b);
-    printf(" original value = %d\n",a);
-    printf(" original value= %d\n",b);
+    printf(" original value of a = %d\n",a);
+    printf(" original value of b= %d\n",b);
 
     a ^= b;
     b ^= a;
