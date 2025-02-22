@@ -1,16 +1,18 @@
 #include<stdio.h>
 int main(){
-    int a,b;
-    scanf(" %d %d ",&a,&b);
-    printf("%d\n",a);
-    printf("%d\n",b);
+    int num1,num2;
+    scanf("%d %d",num1,num2);
+    printf("%d\n",num1);
+    printf("%d\n",num2);
 
-    a ^= b;
-    b ^= a;
-    a ^= b;
-    printf("%d\n",a);
-    printf("%d",b);
+    /*Swap two numbers*/
+    num1 ^=num2;
+    num2 ^=num1;
+    num1 ^=num2;
+
+    printf("%d\n",num1);
+    printf("%d\n",num2);
+
     return 0;
-
 
 }
