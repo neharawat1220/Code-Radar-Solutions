@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-    float costPrice,sellingPrice,profitloss;
-    scanf("%f %f %f", &costPrice, &sellingPrice, &profitloss);
+    int costPrice,sellingPrice,profitloss;
+    scanf("%d %d %d", &costPrice, &sellingPrice, &profitloss);
     if(profitloss > 0){
         printf("Profit");
     }else if(profitloss < 0){
