@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main(){
-    int a=5, b=3, temp;
+    int a, b;
    //swap
-    temp = a;
     a = b;
-    b = temp;
-
+    b = a;
+    a = b;
+   
     printf("%d %d\n" ,a, b);
     return 0;
 }      
