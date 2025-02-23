@@ -3,25 +3,25 @@ int main(){
     int days;
     scanf("%d",&days);
     switch(days){
-    case1:
+    case 1:
         printf("Monday");
         break;
-    case2:
+    case 2:
         printf("Tuesday");
         break;
-    case3:
+    case 3:
         printf("Wednesday");
         break;
-    case4:
+    case 4:
         printf("Thursady");
         break;
-    case5:
+    case 5:
         printf("Friday");
         break;
-    case6:
+    case 6:
         printf("Saturday"):
         break;
-    case7:
+    case 7:
         printf("Sunday");
         break;
     default:
