@@ -2,7 +2,7 @@
 int main(){
     int days;
     scanf("%d",&days);
-    switch(days);
+    switch(days){
     case1:
         printf("Monday");
     case2:
@@ -16,6 +16,8 @@ int main(){
     case6:
         printf("Saturday"):
     case7:
-        printf("Sunday"):
-        
+        printf("Sunday");
+    }
+    default ;
+
 }
