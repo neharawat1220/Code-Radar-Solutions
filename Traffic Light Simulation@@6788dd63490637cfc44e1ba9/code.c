@@ -4,9 +4,9 @@ int main(){
     scanf("%d",&color);
     if(color =='R'){
         printf("Stop");
-    }else if((color =='G') && (color =='g')){
+    }else if(color =='G'){
         printf("Go");
-    }else if((color =='Y') && (color =='y')){
+    }else if(color =='Y'){
         printf("Slow Down");
     }else{
         printf("Invalid input");
