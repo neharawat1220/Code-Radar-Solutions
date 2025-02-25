@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-    char marks ;
-    scanf("%c",&marks);
+    char grade ;
+    scanf("%c",&grade);
     if('A'){
         printf("Excellent");
     }else if('B'){
