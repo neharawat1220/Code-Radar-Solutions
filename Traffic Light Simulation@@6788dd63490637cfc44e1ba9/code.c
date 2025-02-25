@@ -2,7 +2,7 @@
 int main(){
     int color;
     scanf("%d",&color);
-    if((color =='R') && (color =='r')){
+    if(color =='R'){
         printf("Stop");
     }else if((color =='G') && (color =='g')){
         printf("Go");
