@@ -2,14 +2,23 @@
 int main(){
     char color;
     scanf("%c", &color);
-    if((color =='R') &&(color =='r')){
-        printf("Stop");
-    }else if((color =='G')&&(color =='g')){
-        printf("Go");
-    }else if((color =='Y')&&(color =='y')){
-        printf("Slow Down");
-    }else{
-        printf("Invalid input");
-    }
+    switch (color){
+        case 'R':
+        case 'r':
+            printf("Stop\n");
+            break;
+        case 'G':
+        case 'g':
+            printf("Go\n");
+            break;
+        case 'Y':
+        case 'y':
+            printf("Slow Down\n");
+            break;
+        default;
+            printf("Invalid input\n");
+        }
+    
+    
     return 0;
 }
