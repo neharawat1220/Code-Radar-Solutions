@@ -2,15 +2,15 @@
 int main(){
     char marks ;
     scanf("%c",&marks);
-    if( char 'A'){
+    if('A'){
         printf("Excellent");
-    }else if(char 'B'){
+    }else if('B'){
         printf("Good");
-    }else if(char'C'){
+    }else if('C'){
         printf("Average");
-    }else if(char'D'){
+    }else if('D'){
         printf("Below Average");
-    }else if(char'F'){
+    }else if('F'){
         printf("Fail");
     }else{
         printf("Invalid grade");
