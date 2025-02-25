@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
-    int is_prime(int number);
+    int num;
     scanf("%d",&num);
-    if(is_prime(num)){
+    if((num)){
         printf("Prime");
     }else{
         printf("Not Prime");
