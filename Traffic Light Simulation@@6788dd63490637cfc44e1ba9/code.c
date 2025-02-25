@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int color ,R,G,Y;
+    int color,R,G,Y;
     scanf("%d %d %d %d",&color,&R,&G,&Y);
     if((color =='R') &&(color =='r')){
         printf("Stop");
