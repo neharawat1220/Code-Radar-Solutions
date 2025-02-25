@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-    int color,R,G,Y;
-    scanf("%d %d %d %d",&color,&R,&G,&Y);
+    char color,R,G,Y;
+    scanf("%c %c %c %c",&color,&R,&G,&Y);
     if((color =='R') &&(color =='r')){
         printf("Stop");
     }else if((color =='G')&&(color =='g')){
