@@ -3,11 +3,11 @@ int main(){
     char ch;
     scanf("%c", &ch);
     if(ch =='a'||ch =='e'||ch =='i'||ch =='o'||ch =='u'){
-        printf("Vowel",ch);
+        printf("Vowel");
     }else if(ch>='a' && ch <='z'){
-        printf("Constant",ch);
+        printf("Constant");
     }else if(ch>='0' && ch<='9'){
-        printf("Digit",ch);
+        printf("Digit");
     }else{
         printf("Special Charater ");
     }
