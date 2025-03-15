@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main(){
-    int costPrice,sellingPrice,profitloss;
-    scanf("%d %d %d", &costPrice, &sellingPrice, &profitloss);
-    if(profitloss > 0){
+    int CostPrice,SellingPrice,Profitloss;
+    scanf("%d %d %d", &CostPrice, &SellingPrice, &Profitloss);
+    if(Profitloss > 0){
         printf("Profit");
-    }else if(profitloss < 0){
+    }else if(Profitloss < 0){
         printf("Loss");
     }else{
         printf("No Profit No Loss");
